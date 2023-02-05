@@ -1,0 +1,52 @@
+.App {
+  width: 500px;
+  margin: 0 auto;
+}
+.week-header {
+  display: flex;
+  background-color: darkgrey;
+  color: white;
+}
+
+.week-day {
+  flex: 1;
+  text-align: center;
+  line-height: 3em;
+}
+
+.week-day:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  line-height: 3em;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.actions {
+  display: flex;
+  text-align: center;
+  line-height: 3em;
+}
+
+.left, .right, .month {
+  flex: 1;
+  background-color: gray;
+  cursor: pointer;
+  color: white;
+}
+
+.action-btn:hover {
+  background-color: lightgray;
+}
+
+.action-btn.disabled {
+  cursor: not-allowed;
+  pointer-events: none;
+}

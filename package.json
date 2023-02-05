@@ -1,0 +1,19 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "Fullstack App",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jothi137/my-app.git"
+  },
+  "author": "JV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jothi137/my-app/issues"
+  },
+  "homepage": "https://github.com/jothi137/my-app#readme"
+}
